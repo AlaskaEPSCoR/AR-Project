@@ -39,11 +39,11 @@ public class PlaceObjectOnPlane : MonoBehaviour
                 GameObject obj = Instantiate(prefab, pose.position, pose.rotation);
 
             if (aRPlaneManager.GetPlane(hit.trackableId).alignment ==PlaneAlignment.HorizontalUp){
-                Vector3 position = obj.transform.position;
-                position.y = 0f;
+                Vector3 prefabPosition = obj.transform.position;
+                prefabPosition.y = 0f;
                 Vector3 cameraPosition = Camera.main.transform.position;
                 cameraPosition.y = 0f;
-                Vector3 direction = cameraPosition - position;
+                Vector3 direction = cameraPosition - prefabPosition;
                 Quaternion targetRotation = Quaternion.LookRotation(direction);
                 obj.transform.rotation = targetRotation;
             }

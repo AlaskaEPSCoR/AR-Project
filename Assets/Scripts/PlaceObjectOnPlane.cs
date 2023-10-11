@@ -6,7 +6,7 @@ using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
 [RequireComponent(typeof(ARRaycastManager), typeof(ARPlaneManager))]
 
-public class PlaceObject : MonoBehaviour
+public class PlaceObjectOnPlane : MonoBehaviour
 {
     [SerializeField]
     private GameObject prefab;
@@ -20,17 +20,17 @@ public class PlaceObject : MonoBehaviour
         aRPlaneManager = GetComponent<ARPlaneManager>();
 
     }
-    private void onEnable(){
-        TouchSimulation.Enable();
-        EnhancedTouchSupport.Enable();
+    private void OnEnable(){
+        EnhancedTouch.TouchSimulation.Enable();
+        EnhancedTouch.EnhancedTouchSupport.Enable();
         EnhancedTouch.Touch.onFingerDown += FingerDown;
     }
-    private void onDisable(){
-        TouchSimulation.Disable();
-        EnhancedTouchSupport.Disable();
+    private void OnDisable(){
+        EnhancedTouch.TouchSimulation.Disable();
+        EnhancedTouch.EnhancedTouchSupport.Disable();
         EnhancedTouch.Touch.onFingerDown -= FingerDown;
     }
-    private void FingerDown(Finger finger) {
+    private void FingerDown(EnhancedTouch.Finger finger) {
         if (finger.index != 0) return;
 
         if(aRRaycastManager.Raycast(finger.currentTouch.screenPosition, hits, TrackableType.PlaneWithinPolygon)){

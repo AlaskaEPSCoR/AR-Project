@@ -22,8 +22,8 @@ public class PlaceObjectOnPlane : MonoBehaviour
     private void Awake(){
         aRRaycastManager = GetComponent<ARRaycastManager>();
         aRPlaneManager = GetComponent<ARPlaneManager>();
-        touchInput.performed += _ => {FingerDown(EnhancedTouch.Finger finger);};
-
+        touchInput.performed += _ => { PlaceObject(); };
+        //Debug.Log("Action triggered!");
     }
     private void OnEnable(){
         EnhancedTouch.TouchSimulation.Enable();
@@ -37,7 +37,15 @@ public class PlaceObjectOnPlane : MonoBehaviour
         EnhancedTouch.Touch.onFingerDown -= FingerDown;
         touchInput.Disable();
     }
-    private void FingerDown(EnhancedTouch.Finger finger) {
+
+    void PlaceObject(){
+        Debug.Log("Action triggered!");
+        foreach(ARRaycastHit hit in hits){
+            Pose pose = hit.pose;
+            GameObject obj = Instantiate(prefab, pose.position, pose.rotation);
+            }
+    }
+    void FingerDown(EnhancedTouch.Finger finger) {
         if (finger.index != 0) return;
 
         if(aRRaycastManager.Raycast(finger.currentTouch.screenPosition, hits, TrackableType.PlaneWithinPolygon)){

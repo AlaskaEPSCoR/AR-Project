@@ -1,0 +1,499 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 UnityEngine.GameObject AnchorCreator::get_AnchorPrefab()
+extern void AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A (void);
+// 0x00000002 System.Void AnchorCreator::set_AnchorPrefab(UnityEngine.GameObject)
+extern void AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF (void);
+// 0x00000003 System.Void AnchorCreator::RemoveAllAnchors()
+extern void AnchorCreator_RemoveAllAnchors_m6BA302DD9EECA47969FD3F6E5397441DCB09ED21 (void);
+// 0x00000004 System.Void AnchorCreator::Awake()
+extern void AnchorCreator_Awake_m8820A3F157354D7EDED7B2D7CE2BFA42844F1F8E (void);
+// 0x00000005 System.Void AnchorCreator::Update()
+extern void AnchorCreator_Update_mA0A8BCCBAB0AE50DB087524E6273D11F1D6456D0 (void);
+// 0x00000006 System.Void AnchorCreator::.ctor()
+extern void AnchorCreator__ctor_m702B01425680D7FD1C9272A423AAF8A913E5476E (void);
+// 0x00000007 System.Void AnchorCreator::.cctor()
+extern void AnchorCreator__cctor_mF5AE519F086E52A01EA091115062D84D9F094F34 (void);
+// 0x00000008 System.Single ARFeatheredPlaneMeshVisualizer::get_featheringWidth()
+extern void ARFeatheredPlaneMeshVisualizer_get_featheringWidth_m14D3A8BE3E9A745E6FD525B19ADDC892B8399B4D (void);
+// 0x00000009 System.Void ARFeatheredPlaneMeshVisualizer::set_featheringWidth(System.Single)
+extern void ARFeatheredPlaneMeshVisualizer_set_featheringWidth_mD616A09A3B426EA5DE1FA37334DD194E43EEC110 (void);
+// 0x0000000A System.Void ARFeatheredPlaneMeshVisualizer::Awake()
+extern void ARFeatheredPlaneMeshVisualizer_Awake_mC5DB0414A2514BF4851266C25141C903F0AC57BA (void);
+// 0x0000000B System.Void ARFeatheredPlaneMeshVisualizer::OnEnable()
+extern void ARFeatheredPlaneMeshVisualizer_OnEnable_m8781C85CFED871C8A81A5B88DB1031856E0FC9F0 (void);
+// 0x0000000C System.Void ARFeatheredPlaneMeshVisualizer::OnDisable()
+extern void ARFeatheredPlaneMeshVisualizer_OnDisable_m2343B05B1A8F14BAD4DD516C584281B66FE6A4E8 (void);
+// 0x0000000D System.Void ARFeatheredPlaneMeshVisualizer::ARPlane_boundaryUpdated(UnityEngine.XR.ARFoundation.ARPlaneBoundaryChangedEventArgs)
+extern void ARFeatheredPlaneMeshVisualizer_ARPlane_boundaryUpdated_mB3D9BBD14EA1FE3ECDBACC2DB89C1B110B8B6B5F (void);
+// 0x0000000E System.Void ARFeatheredPlaneMeshVisualizer::GenerateBoundaryUVs(UnityEngine.Mesh)
+extern void ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5 (void);
+// 0x0000000F System.Void ARFeatheredPlaneMeshVisualizer::.ctor()
+extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6 (void);
+// 0x00000010 System.Void ARFeatheredPlaneMeshVisualizer::.cctor()
+extern void ARFeatheredPlaneMeshVisualizer__cctor_mF4BA6DDB611A3FD966C8B9494AE6B3EB8647CEAD (void);
+// 0x00000011 System.Void SimpleController_UsingActionAsset::Awake()
+extern void SimpleController_UsingActionAsset_Awake_mF451DEF5FF233196974A1FF77E017F90000B50E9 (void);
+// 0x00000012 System.Void SimpleController_UsingActionAsset::OnEnable()
+extern void SimpleController_UsingActionAsset_OnEnable_mFA67D201739E0F43DC9604B520AEF00B4C0F55F0 (void);
+// 0x00000013 System.Void SimpleController_UsingActionAsset::OnDisable()
+extern void SimpleController_UsingActionAsset_OnDisable_m7F08E2CC2212E5595E99EB729BD402E5A5FBE9D3 (void);
+// 0x00000014 System.Void SimpleController_UsingActionAsset::OnGUI()
+extern void SimpleController_UsingActionAsset_OnGUI_mE1B184D52F558EB37804CA5298CEE3F540CA9081 (void);
+// 0x00000015 System.Void SimpleController_UsingActionAsset::Update()
+extern void SimpleController_UsingActionAsset_Update_m87D688C4AE8AD38FD8B3390F40D13BB0CE6BFB35 (void);
+// 0x00000016 System.Void SimpleController_UsingActionAsset::Move(UnityEngine.Vector2)
+extern void SimpleController_UsingActionAsset_Move_mD23068A8BFCDEF65A971AC68E22B8BB8B22B594B (void);
+// 0x00000017 System.Void SimpleController_UsingActionAsset::Look(UnityEngine.Vector2)
+extern void SimpleController_UsingActionAsset_Look_m39A97A208867D0D78C303F4564B5E7AA82C6C38C (void);
+// 0x00000018 System.Collections.IEnumerator SimpleController_UsingActionAsset::BurstFire(System.Int32)
+extern void SimpleController_UsingActionAsset_BurstFire_mA29CB0D0790FB53A2149414947860278C99F8801 (void);
+// 0x00000019 System.Void SimpleController_UsingActionAsset::Fire()
+extern void SimpleController_UsingActionAsset_Fire_m39EDF0D6AFFEADE8785E455137FF53EBA0287F92 (void);
+// 0x0000001A System.Void SimpleController_UsingActionAsset::.ctor()
+extern void SimpleController_UsingActionAsset__ctor_mBA92FDC2090ACDB0933D40101D997D7C60732205 (void);
+// 0x0000001B System.Void SimpleController_UsingActionAsset::<Awake>b__7_0(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingActionAsset_U3CAwakeU3Eb__7_0_m2894ACCBEBF5E354C31AA04E74580A73FECD9DCB (void);
+// 0x0000001C System.Void SimpleController_UsingActionAsset::<Awake>b__7_1(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingActionAsset_U3CAwakeU3Eb__7_1_m8CBBB1357507E89725F23577DB66B9A55B25171C (void);
+// 0x0000001D System.Void SimpleController_UsingActionAsset::<Awake>b__7_2(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingActionAsset_U3CAwakeU3Eb__7_2_m4A55A479AB63FBE50AC77A6CEFBBB9F203763F7C (void);
+// 0x0000001E System.Void SimpleController_UsingActionAsset/<BurstFire>d__14::.ctor(System.Int32)
+extern void U3CBurstFireU3Ed__14__ctor_m3B5F9A240762CD0BAA639D0A7588FB03E712C91F (void);
+// 0x0000001F System.Void SimpleController_UsingActionAsset/<BurstFire>d__14::System.IDisposable.Dispose()
+extern void U3CBurstFireU3Ed__14_System_IDisposable_Dispose_mDC1157261B9D9A7BEBD654016E12965CB4AD3032 (void);
+// 0x00000020 System.Boolean SimpleController_UsingActionAsset/<BurstFire>d__14::MoveNext()
+extern void U3CBurstFireU3Ed__14_MoveNext_m444778B6C26F0E5D746683A54A60C395BE33175E (void);
+// 0x00000021 System.Object SimpleController_UsingActionAsset/<BurstFire>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CBurstFireU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5E3EDECDEEFAE2B14372ED6E241D1B81838EA67C (void);
+// 0x00000022 System.Void SimpleController_UsingActionAsset/<BurstFire>d__14::System.Collections.IEnumerator.Reset()
+extern void U3CBurstFireU3Ed__14_System_Collections_IEnumerator_Reset_mE71D3F83FDCDDC6A1903EBAFB1F8F6621D075913 (void);
+// 0x00000023 System.Object SimpleController_UsingActionAsset/<BurstFire>d__14::System.Collections.IEnumerator.get_Current()
+extern void U3CBurstFireU3Ed__14_System_Collections_IEnumerator_get_Current_mEFDD7531A207A0BCDBF07EFEEA9AEF582E3F24F9 (void);
+// 0x00000024 System.Void SimpleController_UsingActions::Awake()
+extern void SimpleController_UsingActions_Awake_mED18DE7C46333BEE17508B7383EFA5854670DDD5 (void);
+// 0x00000025 System.Void SimpleController_UsingActions::OnEnable()
+extern void SimpleController_UsingActions_OnEnable_m47BB4D1AF269AD907A573835CA8C0F42906B8824 (void);
+// 0x00000026 System.Void SimpleController_UsingActions::OnDisable()
+extern void SimpleController_UsingActions_OnDisable_m30C9D12D47BEF8CA761519D0D52307B8E18A0847 (void);
+// 0x00000027 System.Void SimpleController_UsingActions::OnGUI()
+extern void SimpleController_UsingActions_OnGUI_mE672EEA2A9BF501E7734C0107093BAA8517F3450 (void);
+// 0x00000028 System.Void SimpleController_UsingActions::Update()
+extern void SimpleController_UsingActions_Update_mFDC49C691C2E3944B9C992E1F4007168663B23D4 (void);
+// 0x00000029 System.Void SimpleController_UsingActions::Move(UnityEngine.Vector2)
+extern void SimpleController_UsingActions_Move_m7647A5C04AED5C3D5EFA0E2CDF0E837A68A19787 (void);
+// 0x0000002A System.Void SimpleController_UsingActions::Look(UnityEngine.Vector2)
+extern void SimpleController_UsingActions_Look_m091AEC93A4769F2278478B1DC200A5C86E49AC53 (void);
+// 0x0000002B System.Collections.IEnumerator SimpleController_UsingActions::BurstFire(System.Int32)
+extern void SimpleController_UsingActions_BurstFire_mB8402387AA63D18CA4BB45BC41C14AEEE8692F65 (void);
+// 0x0000002C System.Void SimpleController_UsingActions::Fire()
+extern void SimpleController_UsingActions_Fire_mF36AB438BB8334A28D0DC629658CD2959EBA4FB2 (void);
+// 0x0000002D System.Void SimpleController_UsingActions::.ctor()
+extern void SimpleController_UsingActions__ctor_mC66EA3A666B62C40C8A6FC805559179B08154B56 (void);
+// 0x0000002E System.Void SimpleController_UsingActions::<Awake>b__9_0(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingActions_U3CAwakeU3Eb__9_0_m89D753CFDE321E04AC85A5658734410CA788B105 (void);
+// 0x0000002F System.Void SimpleController_UsingActions::<Awake>b__9_1(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingActions_U3CAwakeU3Eb__9_1_m438B0E8342EB809283042DFC015E0507DFECA73B (void);
+// 0x00000030 System.Void SimpleController_UsingActions::<Awake>b__9_2(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingActions_U3CAwakeU3Eb__9_2_mF695893B6278885C788EBE4A348F50C8E86A6BB1 (void);
+// 0x00000031 System.Void SimpleController_UsingActions/<BurstFire>d__16::.ctor(System.Int32)
+extern void U3CBurstFireU3Ed__16__ctor_m93098345EECB4A3BE0FB8DB0684AB2FCC8749E35 (void);
+// 0x00000032 System.Void SimpleController_UsingActions/<BurstFire>d__16::System.IDisposable.Dispose()
+extern void U3CBurstFireU3Ed__16_System_IDisposable_Dispose_mF6E9C5FE3E0462B042526751D7EA854348B4AC15 (void);
+// 0x00000033 System.Boolean SimpleController_UsingActions/<BurstFire>d__16::MoveNext()
+extern void U3CBurstFireU3Ed__16_MoveNext_m181C42E2F1F61765A3C8F651EE9EEBE567E3D019 (void);
+// 0x00000034 System.Object SimpleController_UsingActions/<BurstFire>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CBurstFireU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m36CAA05868C9E99B6664D66C1B9AE8ECC3DAC1A9 (void);
+// 0x00000035 System.Void SimpleController_UsingActions/<BurstFire>d__16::System.Collections.IEnumerator.Reset()
+extern void U3CBurstFireU3Ed__16_System_Collections_IEnumerator_Reset_m1340DF3AE84FB59FC39788FF4954FF843C598CE4 (void);
+// 0x00000036 System.Object SimpleController_UsingActions/<BurstFire>d__16::System.Collections.IEnumerator.get_Current()
+extern void U3CBurstFireU3Ed__16_System_Collections_IEnumerator_get_Current_m76493A61B84A57836C701EBE955A2D8B766BAF06 (void);
+// 0x00000037 System.Void SimpleController_UsingPlayerInput::OnMove(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingPlayerInput_OnMove_mA3F1D7BE16B8913F0AD601824C67E995F3A089E9 (void);
+// 0x00000038 System.Void SimpleController_UsingPlayerInput::OnLook(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingPlayerInput_OnLook_mDAA39CCE676D3722CDA9E39C83C32783BD7BD099 (void);
+// 0x00000039 System.Void SimpleController_UsingPlayerInput::OnFire(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SimpleController_UsingPlayerInput_OnFire_m8D3FDAAAA179E609B89B0C9C6D75E62DBD9277FF (void);
+// 0x0000003A System.Void SimpleController_UsingPlayerInput::OnGUI()
+extern void SimpleController_UsingPlayerInput_OnGUI_m31CB401197025E97D2B2A6FECB69D67FE6FD8AB1 (void);
+// 0x0000003B System.Void SimpleController_UsingPlayerInput::Update()
+extern void SimpleController_UsingPlayerInput_Update_m098D8A9633123C37C3E4B0D8119560AA3F5C492F (void);
+// 0x0000003C System.Void SimpleController_UsingPlayerInput::Move(UnityEngine.Vector2)
+extern void SimpleController_UsingPlayerInput_Move_m72452E82044E1B4F2EDEC12B9E5B6B1ADAF72DCD (void);
+// 0x0000003D System.Void SimpleController_UsingPlayerInput::Look(UnityEngine.Vector2)
+extern void SimpleController_UsingPlayerInput_Look_m00748267AC7517A8DCFA6B2D22CEC0533D80C4DC (void);
+// 0x0000003E System.Collections.IEnumerator SimpleController_UsingPlayerInput::BurstFire(System.Int32)
+extern void SimpleController_UsingPlayerInput_BurstFire_m8B841B7D66B3C29ECE370323EACB0C8BAFDCA7D0 (void);
+// 0x0000003F System.Void SimpleController_UsingPlayerInput::Fire()
+extern void SimpleController_UsingPlayerInput_Fire_m9FAD2356D01956ECD62D1F389613B65B5F3B8493 (void);
+// 0x00000040 System.Void SimpleController_UsingPlayerInput::.ctor()
+extern void SimpleController_UsingPlayerInput__ctor_m14CB68BF6ECD34E91E0050954D7CD7C65C011AF1 (void);
+// 0x00000041 System.Void SimpleController_UsingPlayerInput/<BurstFire>d__15::.ctor(System.Int32)
+extern void U3CBurstFireU3Ed__15__ctor_mCC9A66DD85EAF788B598DA24EAA012EBDFCED87C (void);
+// 0x00000042 System.Void SimpleController_UsingPlayerInput/<BurstFire>d__15::System.IDisposable.Dispose()
+extern void U3CBurstFireU3Ed__15_System_IDisposable_Dispose_m06A4445924D2D1F4B53AB53378EE88B89A32383C (void);
+// 0x00000043 System.Boolean SimpleController_UsingPlayerInput/<BurstFire>d__15::MoveNext()
+extern void U3CBurstFireU3Ed__15_MoveNext_m785E79C305944ACE0E88DB497F77A32E6C0B534D (void);
+// 0x00000044 System.Object SimpleController_UsingPlayerInput/<BurstFire>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CBurstFireU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m78CA541484B4251F349091F24D29350742B20FF7 (void);
+// 0x00000045 System.Void SimpleController_UsingPlayerInput/<BurstFire>d__15::System.Collections.IEnumerator.Reset()
+extern void U3CBurstFireU3Ed__15_System_Collections_IEnumerator_Reset_mE64F8BADB1A3CD584608EE6A6105BB80AF77FD58 (void);
+// 0x00000046 System.Object SimpleController_UsingPlayerInput/<BurstFire>d__15::System.Collections.IEnumerator.get_Current()
+extern void U3CBurstFireU3Ed__15_System_Collections_IEnumerator_get_Current_m747D83A54D21758E74D571B90A069DD7BFBAD1A7 (void);
+// 0x00000047 System.Void SimpleController_UsingState::Update()
+extern void SimpleController_UsingState_Update_mF6E8DE4E320F04A355A3816B06BB073D324E5EDF (void);
+// 0x00000048 System.Void SimpleController_UsingState::Move(UnityEngine.Vector2)
+extern void SimpleController_UsingState_Move_m691D47E214762305BBD316662BCD21B33E20B7DB (void);
+// 0x00000049 System.Void SimpleController_UsingState::Look(UnityEngine.Vector2)
+extern void SimpleController_UsingState_Look_m48E430FAEFFEE2CB6861CCDD2A1092E705A0D594 (void);
+// 0x0000004A System.Void SimpleController_UsingState::Fire()
+extern void SimpleController_UsingState_Fire_m03165BE3B448F3BF0BD04730C56B210013AFF1EE (void);
+// 0x0000004B System.Void SimpleController_UsingState::.ctor()
+extern void SimpleController_UsingState__ctor_m48E5793EB5F2A833D5B71A3F4CBAA256307272DD (void);
+// 0x0000004C UnityEngine.InputSystem.InputActionAsset SimpleControls::get_asset()
+extern void SimpleControls_get_asset_m5C3BFBFE614F78C5F8D38B844652589FC0F3B3F6 (void);
+// 0x0000004D System.Void SimpleControls::.ctor()
+extern void SimpleControls__ctor_m82E06F6927EFAC7C235A861BC9282952BB951199 (void);
+// 0x0000004E System.Void SimpleControls::Dispose()
+extern void SimpleControls_Dispose_mF56073232F55634FBA82CB19941DDF1F9FBF36E4 (void);
+// 0x0000004F System.Nullable`1<UnityEngine.InputSystem.InputBinding> SimpleControls::get_bindingMask()
+extern void SimpleControls_get_bindingMask_m997EC829F1FF4C46F7070B35579CAD5FE4FDD298 (void);
+// 0x00000050 System.Void SimpleControls::set_bindingMask(System.Nullable`1<UnityEngine.InputSystem.InputBinding>)
+extern void SimpleControls_set_bindingMask_m77BC555E5073AB5088FAE678ECEB17BCCF9B1E5E (void);
+// 0x00000051 System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>> SimpleControls::get_devices()
+extern void SimpleControls_get_devices_mC7725E25D729D68EF5382072B6B7C15D5C84C6D6 (void);
+// 0x00000052 System.Void SimpleControls::set_devices(System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>>)
+extern void SimpleControls_set_devices_m5A4DF388D87DB7645079D5E50182482255C0D492 (void);
+// 0x00000053 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputControlScheme> SimpleControls::get_controlSchemes()
+extern void SimpleControls_get_controlSchemes_mCC62431B1D2DEDA7F4B80CFCA6AAE955C4ED774C (void);
+// 0x00000054 System.Boolean SimpleControls::Contains(UnityEngine.InputSystem.InputAction)
+extern void SimpleControls_Contains_mA119DB60018D8B06A18EA5064D33EF13C4781819 (void);
+// 0x00000055 System.Collections.Generic.IEnumerator`1<UnityEngine.InputSystem.InputAction> SimpleControls::GetEnumerator()
+extern void SimpleControls_GetEnumerator_m4309716E84FE06F106005121E42B896FC7EF41F4 (void);
+// 0x00000056 System.Collections.IEnumerator SimpleControls::System.Collections.IEnumerable.GetEnumerator()
+extern void SimpleControls_System_Collections_IEnumerable_GetEnumerator_m1F533FE354169CA11CE132E96F7088275F1FA242 (void);
+// 0x00000057 System.Void SimpleControls::Enable()
+extern void SimpleControls_Enable_mF627394CDB446D4D82938E53470C30DD28085ED1 (void);
+// 0x00000058 System.Void SimpleControls::Disable()
+extern void SimpleControls_Disable_mDD6918C5F32DD6895102FC620DEF8D6F12760A17 (void);
+// 0x00000059 System.Collections.Generic.IEnumerable`1<UnityEngine.InputSystem.InputBinding> SimpleControls::get_bindings()
+extern void SimpleControls_get_bindings_m875A933094C92B1DF94D1BFAC1093CDB93D6CE66 (void);
+// 0x0000005A UnityEngine.InputSystem.InputAction SimpleControls::FindAction(System.String,System.Boolean)
+extern void SimpleControls_FindAction_mC3406701577FFE403EE5E02C4C41970540CC1E4D (void);
+// 0x0000005B System.Int32 SimpleControls::FindBinding(UnityEngine.InputSystem.InputBinding,UnityEngine.InputSystem.InputAction&)
+extern void SimpleControls_FindBinding_m5159ABE1B449125E0D88D5F1592D5FB14194F6D8 (void);
+// 0x0000005C SimpleControls/GameplayActions SimpleControls::get_gameplay()
+extern void SimpleControls_get_gameplay_m752BAE15F16FC49165DCCEB5892D98C2F9B7431E (void);
+// 0x0000005D System.Void SimpleControls/GameplayActions::.ctor(SimpleControls)
+extern void GameplayActions__ctor_m5614ADE3AD3571535C7F4782975BACE904BC6383 (void);
+// 0x0000005E UnityEngine.InputSystem.InputAction SimpleControls/GameplayActions::get_fire()
+extern void GameplayActions_get_fire_m92D3E132440D552BAB949DD6E69C039CB6B75AF4 (void);
+// 0x0000005F UnityEngine.InputSystem.InputAction SimpleControls/GameplayActions::get_move()
+extern void GameplayActions_get_move_m706257F4693B4A57A6F8F9389B36BEF2B7DB80C5 (void);
+// 0x00000060 UnityEngine.InputSystem.InputAction SimpleControls/GameplayActions::get_look()
+extern void GameplayActions_get_look_m458CDA44FC01DB82CBB0F85C74DEAA1E4EC96AF5 (void);
+// 0x00000061 UnityEngine.InputSystem.InputActionMap SimpleControls/GameplayActions::Get()
+extern void GameplayActions_Get_mDF8047B2DD1054EAE8794503D12BDB5B571D86D9 (void);
+// 0x00000062 System.Void SimpleControls/GameplayActions::Enable()
+extern void GameplayActions_Enable_mEF563953D1910C12EED33E35CEB58FC38CC35F10 (void);
+// 0x00000063 System.Void SimpleControls/GameplayActions::Disable()
+extern void GameplayActions_Disable_m2379209AD6AFD41CA60C94D4C4918A93B6AD8A6F (void);
+// 0x00000064 System.Boolean SimpleControls/GameplayActions::get_enabled()
+extern void GameplayActions_get_enabled_m7B4B527B003FB802414B53303B73AF3A3DE5A4DB (void);
+// 0x00000065 UnityEngine.InputSystem.InputActionMap SimpleControls/GameplayActions::op_Implicit(SimpleControls/GameplayActions)
+extern void GameplayActions_op_Implicit_mFC7CB63F4B0F63C8F46EBEF137C59B437973D59B (void);
+// 0x00000066 System.Void SimpleControls/GameplayActions::SetCallbacks(SimpleControls/IGameplayActions)
+extern void GameplayActions_SetCallbacks_m84A9B242D1921C35436E1B8698AE9C8FE3C1E677 (void);
+// 0x00000067 System.Void SimpleControls/IGameplayActions::OnFire(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x00000068 System.Void SimpleControls/IGameplayActions::OnMove(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x00000069 System.Void SimpleControls/IGameplayActions::OnLook(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x0000006A System.Void PlaceObjectOnPlane::Awake()
+extern void PlaceObjectOnPlane_Awake_m2EE1A1B593C8C457B166A2EFE67DC9B5C8D3046C (void);
+// 0x0000006B System.Void PlaceObjectOnPlane::OnEnable()
+extern void PlaceObjectOnPlane_OnEnable_m96219BD62997EC8E64E6709322CACC057741CA99 (void);
+// 0x0000006C System.Void PlaceObjectOnPlane::OnDisable()
+extern void PlaceObjectOnPlane_OnDisable_mAC1D8AD149BC4B7F14D7D921CE993BEF4E4817A3 (void);
+// 0x0000006D System.Void PlaceObjectOnPlane::FingerDown(UnityEngine.InputSystem.EnhancedTouch.Finger)
+extern void PlaceObjectOnPlane_FingerDown_m8D3F40A3BAD805365D1BA40915FC7249D1759323 (void);
+// 0x0000006E System.Void PlaceObjectOnPlane::.ctor()
+extern void PlaceObjectOnPlane__ctor_m2BAD4B5C248D143C6C6049EE6FF1FEF783542F44 (void);
+static Il2CppMethodPointer s_methodPointers[110] = 
+{
+	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
+	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
+	AnchorCreator_RemoveAllAnchors_m6BA302DD9EECA47969FD3F6E5397441DCB09ED21,
+	AnchorCreator_Awake_m8820A3F157354D7EDED7B2D7CE2BFA42844F1F8E,
+	AnchorCreator_Update_mA0A8BCCBAB0AE50DB087524E6273D11F1D6456D0,
+	AnchorCreator__ctor_m702B01425680D7FD1C9272A423AAF8A913E5476E,
+	AnchorCreator__cctor_mF5AE519F086E52A01EA091115062D84D9F094F34,
+	ARFeatheredPlaneMeshVisualizer_get_featheringWidth_m14D3A8BE3E9A745E6FD525B19ADDC892B8399B4D,
+	ARFeatheredPlaneMeshVisualizer_set_featheringWidth_mD616A09A3B426EA5DE1FA37334DD194E43EEC110,
+	ARFeatheredPlaneMeshVisualizer_Awake_mC5DB0414A2514BF4851266C25141C903F0AC57BA,
+	ARFeatheredPlaneMeshVisualizer_OnEnable_m8781C85CFED871C8A81A5B88DB1031856E0FC9F0,
+	ARFeatheredPlaneMeshVisualizer_OnDisable_m2343B05B1A8F14BAD4DD516C584281B66FE6A4E8,
+	ARFeatheredPlaneMeshVisualizer_ARPlane_boundaryUpdated_mB3D9BBD14EA1FE3ECDBACC2DB89C1B110B8B6B5F,
+	ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5,
+	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
+	ARFeatheredPlaneMeshVisualizer__cctor_mF4BA6DDB611A3FD966C8B9494AE6B3EB8647CEAD,
+	SimpleController_UsingActionAsset_Awake_mF451DEF5FF233196974A1FF77E017F90000B50E9,
+	SimpleController_UsingActionAsset_OnEnable_mFA67D201739E0F43DC9604B520AEF00B4C0F55F0,
+	SimpleController_UsingActionAsset_OnDisable_m7F08E2CC2212E5595E99EB729BD402E5A5FBE9D3,
+	SimpleController_UsingActionAsset_OnGUI_mE1B184D52F558EB37804CA5298CEE3F540CA9081,
+	SimpleController_UsingActionAsset_Update_m87D688C4AE8AD38FD8B3390F40D13BB0CE6BFB35,
+	SimpleController_UsingActionAsset_Move_mD23068A8BFCDEF65A971AC68E22B8BB8B22B594B,
+	SimpleController_UsingActionAsset_Look_m39A97A208867D0D78C303F4564B5E7AA82C6C38C,
+	SimpleController_UsingActionAsset_BurstFire_mA29CB0D0790FB53A2149414947860278C99F8801,
+	SimpleController_UsingActionAsset_Fire_m39EDF0D6AFFEADE8785E455137FF53EBA0287F92,
+	SimpleController_UsingActionAsset__ctor_mBA92FDC2090ACDB0933D40101D997D7C60732205,
+	SimpleController_UsingActionAsset_U3CAwakeU3Eb__7_0_m2894ACCBEBF5E354C31AA04E74580A73FECD9DCB,
+	SimpleController_UsingActionAsset_U3CAwakeU3Eb__7_1_m8CBBB1357507E89725F23577DB66B9A55B25171C,
+	SimpleController_UsingActionAsset_U3CAwakeU3Eb__7_2_m4A55A479AB63FBE50AC77A6CEFBBB9F203763F7C,
+	U3CBurstFireU3Ed__14__ctor_m3B5F9A240762CD0BAA639D0A7588FB03E712C91F,
+	U3CBurstFireU3Ed__14_System_IDisposable_Dispose_mDC1157261B9D9A7BEBD654016E12965CB4AD3032,
+	U3CBurstFireU3Ed__14_MoveNext_m444778B6C26F0E5D746683A54A60C395BE33175E,
+	U3CBurstFireU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5E3EDECDEEFAE2B14372ED6E241D1B81838EA67C,
+	U3CBurstFireU3Ed__14_System_Collections_IEnumerator_Reset_mE71D3F83FDCDDC6A1903EBAFB1F8F6621D075913,
+	U3CBurstFireU3Ed__14_System_Collections_IEnumerator_get_Current_mEFDD7531A207A0BCDBF07EFEEA9AEF582E3F24F9,
+	SimpleController_UsingActions_Awake_mED18DE7C46333BEE17508B7383EFA5854670DDD5,
+	SimpleController_UsingActions_OnEnable_m47BB4D1AF269AD907A573835CA8C0F42906B8824,
+	SimpleController_UsingActions_OnDisable_m30C9D12D47BEF8CA761519D0D52307B8E18A0847,
+	SimpleController_UsingActions_OnGUI_mE672EEA2A9BF501E7734C0107093BAA8517F3450,
+	SimpleController_UsingActions_Update_mFDC49C691C2E3944B9C992E1F4007168663B23D4,
+	SimpleController_UsingActions_Move_m7647A5C04AED5C3D5EFA0E2CDF0E837A68A19787,
+	SimpleController_UsingActions_Look_m091AEC93A4769F2278478B1DC200A5C86E49AC53,
+	SimpleController_UsingActions_BurstFire_mB8402387AA63D18CA4BB45BC41C14AEEE8692F65,
+	SimpleController_UsingActions_Fire_mF36AB438BB8334A28D0DC629658CD2959EBA4FB2,
+	SimpleController_UsingActions__ctor_mC66EA3A666B62C40C8A6FC805559179B08154B56,
+	SimpleController_UsingActions_U3CAwakeU3Eb__9_0_m89D753CFDE321E04AC85A5658734410CA788B105,
+	SimpleController_UsingActions_U3CAwakeU3Eb__9_1_m438B0E8342EB809283042DFC015E0507DFECA73B,
+	SimpleController_UsingActions_U3CAwakeU3Eb__9_2_mF695893B6278885C788EBE4A348F50C8E86A6BB1,
+	U3CBurstFireU3Ed__16__ctor_m93098345EECB4A3BE0FB8DB0684AB2FCC8749E35,
+	U3CBurstFireU3Ed__16_System_IDisposable_Dispose_mF6E9C5FE3E0462B042526751D7EA854348B4AC15,
+	U3CBurstFireU3Ed__16_MoveNext_m181C42E2F1F61765A3C8F651EE9EEBE567E3D019,
+	U3CBurstFireU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m36CAA05868C9E99B6664D66C1B9AE8ECC3DAC1A9,
+	U3CBurstFireU3Ed__16_System_Collections_IEnumerator_Reset_m1340DF3AE84FB59FC39788FF4954FF843C598CE4,
+	U3CBurstFireU3Ed__16_System_Collections_IEnumerator_get_Current_m76493A61B84A57836C701EBE955A2D8B766BAF06,
+	SimpleController_UsingPlayerInput_OnMove_mA3F1D7BE16B8913F0AD601824C67E995F3A089E9,
+	SimpleController_UsingPlayerInput_OnLook_mDAA39CCE676D3722CDA9E39C83C32783BD7BD099,
+	SimpleController_UsingPlayerInput_OnFire_m8D3FDAAAA179E609B89B0C9C6D75E62DBD9277FF,
+	SimpleController_UsingPlayerInput_OnGUI_m31CB401197025E97D2B2A6FECB69D67FE6FD8AB1,
+	SimpleController_UsingPlayerInput_Update_m098D8A9633123C37C3E4B0D8119560AA3F5C492F,
+	SimpleController_UsingPlayerInput_Move_m72452E82044E1B4F2EDEC12B9E5B6B1ADAF72DCD,
+	SimpleController_UsingPlayerInput_Look_m00748267AC7517A8DCFA6B2D22CEC0533D80C4DC,
+	SimpleController_UsingPlayerInput_BurstFire_m8B841B7D66B3C29ECE370323EACB0C8BAFDCA7D0,
+	SimpleController_UsingPlayerInput_Fire_m9FAD2356D01956ECD62D1F389613B65B5F3B8493,
+	SimpleController_UsingPlayerInput__ctor_m14CB68BF6ECD34E91E0050954D7CD7C65C011AF1,
+	U3CBurstFireU3Ed__15__ctor_mCC9A66DD85EAF788B598DA24EAA012EBDFCED87C,
+	U3CBurstFireU3Ed__15_System_IDisposable_Dispose_m06A4445924D2D1F4B53AB53378EE88B89A32383C,
+	U3CBurstFireU3Ed__15_MoveNext_m785E79C305944ACE0E88DB497F77A32E6C0B534D,
+	U3CBurstFireU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m78CA541484B4251F349091F24D29350742B20FF7,
+	U3CBurstFireU3Ed__15_System_Collections_IEnumerator_Reset_mE64F8BADB1A3CD584608EE6A6105BB80AF77FD58,
+	U3CBurstFireU3Ed__15_System_Collections_IEnumerator_get_Current_m747D83A54D21758E74D571B90A069DD7BFBAD1A7,
+	SimpleController_UsingState_Update_mF6E8DE4E320F04A355A3816B06BB073D324E5EDF,
+	SimpleController_UsingState_Move_m691D47E214762305BBD316662BCD21B33E20B7DB,
+	SimpleController_UsingState_Look_m48E430FAEFFEE2CB6861CCDD2A1092E705A0D594,
+	SimpleController_UsingState_Fire_m03165BE3B448F3BF0BD04730C56B210013AFF1EE,
+	SimpleController_UsingState__ctor_m48E5793EB5F2A833D5B71A3F4CBAA256307272DD,
+	SimpleControls_get_asset_m5C3BFBFE614F78C5F8D38B844652589FC0F3B3F6,
+	SimpleControls__ctor_m82E06F6927EFAC7C235A861BC9282952BB951199,
+	SimpleControls_Dispose_mF56073232F55634FBA82CB19941DDF1F9FBF36E4,
+	SimpleControls_get_bindingMask_m997EC829F1FF4C46F7070B35579CAD5FE4FDD298,
+	SimpleControls_set_bindingMask_m77BC555E5073AB5088FAE678ECEB17BCCF9B1E5E,
+	SimpleControls_get_devices_mC7725E25D729D68EF5382072B6B7C15D5C84C6D6,
+	SimpleControls_set_devices_m5A4DF388D87DB7645079D5E50182482255C0D492,
+	SimpleControls_get_controlSchemes_mCC62431B1D2DEDA7F4B80CFCA6AAE955C4ED774C,
+	SimpleControls_Contains_mA119DB60018D8B06A18EA5064D33EF13C4781819,
+	SimpleControls_GetEnumerator_m4309716E84FE06F106005121E42B896FC7EF41F4,
+	SimpleControls_System_Collections_IEnumerable_GetEnumerator_m1F533FE354169CA11CE132E96F7088275F1FA242,
+	SimpleControls_Enable_mF627394CDB446D4D82938E53470C30DD28085ED1,
+	SimpleControls_Disable_mDD6918C5F32DD6895102FC620DEF8D6F12760A17,
+	SimpleControls_get_bindings_m875A933094C92B1DF94D1BFAC1093CDB93D6CE66,
+	SimpleControls_FindAction_mC3406701577FFE403EE5E02C4C41970540CC1E4D,
+	SimpleControls_FindBinding_m5159ABE1B449125E0D88D5F1592D5FB14194F6D8,
+	SimpleControls_get_gameplay_m752BAE15F16FC49165DCCEB5892D98C2F9B7431E,
+	GameplayActions__ctor_m5614ADE3AD3571535C7F4782975BACE904BC6383,
+	GameplayActions_get_fire_m92D3E132440D552BAB949DD6E69C039CB6B75AF4,
+	GameplayActions_get_move_m706257F4693B4A57A6F8F9389B36BEF2B7DB80C5,
+	GameplayActions_get_look_m458CDA44FC01DB82CBB0F85C74DEAA1E4EC96AF5,
+	GameplayActions_Get_mDF8047B2DD1054EAE8794503D12BDB5B571D86D9,
+	GameplayActions_Enable_mEF563953D1910C12EED33E35CEB58FC38CC35F10,
+	GameplayActions_Disable_m2379209AD6AFD41CA60C94D4C4918A93B6AD8A6F,
+	GameplayActions_get_enabled_m7B4B527B003FB802414B53303B73AF3A3DE5A4DB,
+	GameplayActions_op_Implicit_mFC7CB63F4B0F63C8F46EBEF137C59B437973D59B,
+	GameplayActions_SetCallbacks_m84A9B242D1921C35436E1B8698AE9C8FE3C1E677,
+	NULL,
+	NULL,
+	NULL,
+	PlaceObjectOnPlane_Awake_m2EE1A1B593C8C457B166A2EFE67DC9B5C8D3046C,
+	PlaceObjectOnPlane_OnEnable_m96219BD62997EC8E64E6709322CACC057741CA99,
+	PlaceObjectOnPlane_OnDisable_mAC1D8AD149BC4B7F14D7D921CE993BEF4E4817A3,
+	PlaceObjectOnPlane_FingerDown_m8D3F40A3BAD805365D1BA40915FC7249D1759323,
+	PlaceObjectOnPlane__ctor_m2BAD4B5C248D143C6C6049EE6FF1FEF783542F44,
+};
+extern void GameplayActions__ctor_m5614ADE3AD3571535C7F4782975BACE904BC6383_AdjustorThunk (void);
+extern void GameplayActions_get_fire_m92D3E132440D552BAB949DD6E69C039CB6B75AF4_AdjustorThunk (void);
+extern void GameplayActions_get_move_m706257F4693B4A57A6F8F9389B36BEF2B7DB80C5_AdjustorThunk (void);
+extern void GameplayActions_get_look_m458CDA44FC01DB82CBB0F85C74DEAA1E4EC96AF5_AdjustorThunk (void);
+extern void GameplayActions_Get_mDF8047B2DD1054EAE8794503D12BDB5B571D86D9_AdjustorThunk (void);
+extern void GameplayActions_Enable_mEF563953D1910C12EED33E35CEB58FC38CC35F10_AdjustorThunk (void);
+extern void GameplayActions_Disable_m2379209AD6AFD41CA60C94D4C4918A93B6AD8A6F_AdjustorThunk (void);
+extern void GameplayActions_get_enabled_m7B4B527B003FB802414B53303B73AF3A3DE5A4DB_AdjustorThunk (void);
+extern void GameplayActions_SetCallbacks_m84A9B242D1921C35436E1B8698AE9C8FE3C1E677_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[9] = 
+{
+	{ 0x0600005D, GameplayActions__ctor_m5614ADE3AD3571535C7F4782975BACE904BC6383_AdjustorThunk },
+	{ 0x0600005E, GameplayActions_get_fire_m92D3E132440D552BAB949DD6E69C039CB6B75AF4_AdjustorThunk },
+	{ 0x0600005F, GameplayActions_get_move_m706257F4693B4A57A6F8F9389B36BEF2B7DB80C5_AdjustorThunk },
+	{ 0x06000060, GameplayActions_get_look_m458CDA44FC01DB82CBB0F85C74DEAA1E4EC96AF5_AdjustorThunk },
+	{ 0x06000061, GameplayActions_Get_mDF8047B2DD1054EAE8794503D12BDB5B571D86D9_AdjustorThunk },
+	{ 0x06000062, GameplayActions_Enable_mEF563953D1910C12EED33E35CEB58FC38CC35F10_AdjustorThunk },
+	{ 0x06000063, GameplayActions_Disable_m2379209AD6AFD41CA60C94D4C4918A93B6AD8A6F_AdjustorThunk },
+	{ 0x06000064, GameplayActions_get_enabled_m7B4B527B003FB802414B53303B73AF3A3DE5A4DB_AdjustorThunk },
+	{ 0x06000066, GameplayActions_SetCallbacks_m84A9B242D1921C35436E1B8698AE9C8FE3C1E677_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[110] = 
+{
+	5660,
+	4596,
+	5756,
+	5756,
+	5756,
+	5756,
+	8973,
+	5700,
+	4628,
+	5756,
+	5756,
+	5756,
+	4477,
+	4596,
+	5756,
+	8973,
+	5756,
+	5756,
+	5756,
+	5756,
+	5756,
+	4668,
+	4668,
+	4002,
+	5756,
+	5756,
+	4728,
+	4728,
+	4728,
+	4565,
+	5756,
+	5566,
+	5660,
+	5756,
+	5660,
+	5756,
+	5756,
+	5756,
+	5756,
+	5756,
+	4668,
+	4668,
+	4002,
+	5756,
+	5756,
+	4728,
+	4728,
+	4728,
+	4565,
+	5756,
+	5566,
+	5660,
+	5756,
+	5660,
+	4728,
+	4728,
+	4728,
+	5756,
+	5756,
+	4668,
+	4668,
+	4002,
+	5756,
+	5756,
+	4565,
+	5756,
+	5566,
+	5660,
+	5756,
+	5660,
+	5756,
+	4668,
+	4668,
+	5756,
+	5756,
+	5660,
+	5756,
+	5756,
+	5459,
+	4374,
+	5454,
+	4369,
+	5475,
+	3205,
+	5660,
+	5660,
+	5756,
+	5756,
+	5660,
+	1830,
+	1628,
+	5859,
+	4596,
+	5660,
+	5660,
+	5660,
+	5660,
+	5756,
+	5756,
+	5566,
+	8615,
+	4596,
+	0,
+	0,
+	0,
+	5756,
+	5756,
+	5756,
+	4596,
+	5756,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	110,
+	s_methodPointers,
+	9,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
